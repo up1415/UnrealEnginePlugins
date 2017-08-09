@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Animation Node Tutorial Plugin",
+	"Description" : "An example of a minimal plugin.  This can be used as a starting point when creating your own plugin.",
+	"Category" : "Examples",
+	"CreatedBy" : "Gary",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "AnimNodeTutorialModule",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		},
+		{
+			"Name" : "AnimGraphNodeTutorialModule",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
